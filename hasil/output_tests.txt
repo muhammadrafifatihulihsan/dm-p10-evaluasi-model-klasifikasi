@@ -1,0 +1,10 @@
+test_deterministik (test_metrik.UjiDataset.test_deterministik) ... ok
+test_ukuran_dan_kelas (test_metrik.UjiDataset.test_ukuran_dan_kelas) ... ok
+test_akurasi_sempurna (test_metrik.UjiMetrik.test_akurasi_sempurna) ... ok
+test_penyebut_nol (test_metrik.UjiMetrik.test_penyebut_nol) ... ok
+test_tugas_1 (test_metrik.UjiMetrik.test_tugas_1) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK

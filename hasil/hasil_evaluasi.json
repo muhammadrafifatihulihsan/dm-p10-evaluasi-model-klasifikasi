@@ -1,0 +1,147 @@
+{
+  "lingkungan": {
+    "python": "3.13.12",
+    "sklearn": "1.8.0",
+    "pandas": "2.3.3",
+    "numpy": "2.4.1",
+    "platform": "Windows-11-10.0.22631-SP0"
+  },
+  "dataset": {
+    "n": 500,
+    "fitur": [
+      "amount",
+      "hour",
+      "new_device",
+      "foreign_ip"
+    ],
+    "kelas_0": 484,
+    "kelas_1": 16,
+    "fraud_rate": 0.032
+  },
+  "split": {
+    "train": 350,
+    "test": 150,
+    "train_0": 339,
+    "train_1": 11,
+    "test_0": 145,
+    "test_1": 5
+  },
+  "model": {
+    "nama": "DecisionTreeClassifier",
+    "max_depth": 4,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "kelas": [
+      0,
+      1
+    ]
+  },
+  "confusion": {
+    "tn": 113,
+    "fp": 32,
+    "fn": 3,
+    "tp": 2,
+    "matrix": [
+      [
+        113,
+        32
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "metrics_manual": {
+    "accuracy": 0.7666666666666667,
+    "precision": 0.058823529411764705,
+    "recall": 0.4,
+    "f1": 0.10256410256410256
+  },
+  "metrics_sklearn": {
+    "accuracy": 0.7666666666666667,
+    "precision": 0.058823529411764705,
+    "recall": 0.4,
+    "f1": 0.10256410256410256
+  },
+  "baseline": {
+    "tn": 145,
+    "fp": 0,
+    "fn": 5,
+    "tp": 0,
+    "matrix": [
+      [
+        145,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "accuracy": 0.9666666666666667,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "threshold": [
+    {
+      "threshold": 0.2,
+      "tn": 113,
+      "fp": 32,
+      "fn": 3,
+      "tp": 2,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.058823529411764705,
+      "recall": 0.4,
+      "f1": 0.10256410256410256
+    },
+    {
+      "threshold": 0.4,
+      "tn": 113,
+      "fp": 32,
+      "fn": 3,
+      "tp": 2,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.058823529411764705,
+      "recall": 0.4,
+      "f1": 0.10256410256410256
+    },
+    {
+      "threshold": 0.5,
+      "tn": 113,
+      "fp": 32,
+      "fn": 3,
+      "tp": 2,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.058823529411764705,
+      "recall": 0.4,
+      "f1": 0.10256410256410256
+    },
+    {
+      "threshold": 0.7,
+      "tn": 128,
+      "fp": 17,
+      "fn": 4,
+      "tp": 1,
+      "accuracy": 0.86,
+      "precision": 0.05555555555555555,
+      "recall": 0.2,
+      "f1": 0.08695652173913043
+    }
+  ],
+  "tugas1": {
+    "tp": 24,
+    "tn": 156,
+    "fp": 12,
+    "fn": 8,
+    "accuracy": 0.9,
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1": 0.7058823529411765
+  },
+  "classification_report": {
+    "baseline": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.98       145\n           1       0.00      0.00      0.00         5\n\n    accuracy                           0.97       150\n   macro avg       0.48      0.50      0.49       150\nweighted avg       0.93      0.97      0.95       150\n",
+    "model": "              precision    recall  f1-score   support\n\n           0       0.97      0.78      0.87       145\n           1       0.06      0.40      0.10         5\n\n    accuracy                           0.77       150\n   macro avg       0.52      0.59      0.48       150\nweighted avg       0.94      0.77      0.84       150\n"
+  }
+}
