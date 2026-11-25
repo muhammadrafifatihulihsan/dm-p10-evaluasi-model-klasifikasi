@@ -195,6 +195,10 @@ dm-p10-evaluasi-model-klasifikasi/
 ├── .gitignore
 ├── data/
 │   └── dataset_fraud.csv
+├── docs/
+│   ├── github.md
+│   ├── laporan-tugas-10.pdf
+│   └── Data Mining_24343016_Muhammad Rafi Fatihul Ihsan_Tugas10.docx
 ├── src/
 │   ├── evaluasi.py
 │   └── gambar.py
@@ -202,13 +206,20 @@ dm-p10-evaluasi-model-klasifikasi/
 │   └── test_metrik.py
 ├── hasil/
 │   ├── hasil_evaluasi.json
+│   ├── hasil_eksperimen.json
 │   ├── output_eksperimen.txt
 │   ├── output_tests.txt
 │   ├── tabel_metrik.csv
 │   └── tabel_threshold.csv
 └── gambar/
+    ├── arsitektur_pipeline.png
     ├── confusion_matrix.png
+    ├── diagram_pohon.png
     ├── distribusi_kelas.png
+    ├── kode_dataset.png
+    ├── kode_metrik.png
+    ├── kode_model.png
+    ├── kode_threshold.png
     ├── perbandingan_metrik.png
     └── threshold.png
 ```
